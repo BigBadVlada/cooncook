@@ -1,0 +1,181 @@
+@media screen and (max-width: 1200px) {
+
+  #nav {
+    padding: 2px 0 0 0;
+  }
+
+  .txxt {
+    margin-bottom: 0;
+  }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+  #logo {
+    float: none;
+    text-align: center;
+  }
+
+  #nav li a {
+    font-size: 12px;
+  }
+
+  .navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .navbar-toggle {
+    padding: 0;
+    margin-top: 0;
+  }
+
+  footer h5 {
+    font-size: 9px;
+  }
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 992px) {
+
+ .desc h5 {
+   font-size: .9em;
+ }
+
+  #myCarousel p {
+    font-size: 14px;
+  }
+
+  #myCarousel h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .btn-car {
+    margin-top: 0;
+  }
+
+  .oldprice {
+    font-size: 16px;
+  }
+
+  .newprice {
+    font-size: 30px;
+  }
+
+  .carousel-indicators {
+    top: 0;
+    text-align: center;
+  }
+
+  .dugme {
+    margin: 18% auto 0;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+
+  .dugme {
+    margin: 30% auto 0;
+  }
+
+  .ftitem {
+    border-right: 0;
+    border-bottom: 1px solid #efefef;
+  }
+
+  #logo {
+    width: 100%
+  }
+
+  #logo img {
+    padding-bottom: 15px;
+  }
+
+  #nav {
+    float: none;
+    padding-top: 20px;
+  }
+
+  #nav li a {
+    font-size: 16px;
+    padding: 5px 5px;
+  }
+
+
+  #nav li a:hover {
+    background-color: gray;
+  }
+
+  #lista ul li a {
+    color: #37bbec;
+  }
+
+
+ .dropdown-menu {
+   padding: 5px 0;
+ }
+
+
+  #respo {
+    min-height: 36px;
+    width: 100%;
+  }
+
+  #misc {
+    float: left;
+  }
+
+ #mainmenu, #contact {
+   width: 100%;
+   text-align: center;
+ }
+
+ .carousel-indicators {
+   top: 15px;
+   text-align: center;
+ }
+
+  .carousel-inner img {
+    margin: auto;
+  }
+
+  .navbar-toggle {
+    margin: 0;
+  }
+
+  footer h5 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+}
+
+@media screen and (max-width: 575px) {
+
+  .carousel-caption h1{
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+  .oldprice {
+    font-size: 16px;
+  }
+
+  .newprice {
+    font-size: 30px;
+  }
+}
+
+

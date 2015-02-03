@@ -161,7 +161,7 @@
 
   .carousel-caption h1{
     display: block;
-    font-size: 1.5em;
+    font-size: 2em;
     margin-top: 0.83em;
     margin-bottom: 0.83em;
     margin-left: 0;
@@ -176,6 +176,21 @@
   .newprice {
     font-size: 30px;
   }
+}
+
+@media screen and (max-width: 359px) {
+        .oldprice, .newprice {
+            display: none;
+        }
+
+    .btn-car {
+        margin-top: 0;
+        float: none;
+    }
+
+    .carousel-caption h1{
+        font-size: 1.5em;
+    }
 }
 
 
